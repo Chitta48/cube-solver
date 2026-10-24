@@ -1,0 +1,16 @@
+{
+  "name": "cube-solver",
+  "version": "1.0.0",
+  "description": "Step-by-step solver for any NxN Rubik's cube, 2x2 to 10x10",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static HTML project'"
+  },
+  "keywords": ["rubiks-cube", "cube-solver", "puzzle"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
