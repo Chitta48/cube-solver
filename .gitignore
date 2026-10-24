@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Lock files (keep package-lock.json for consistency)
+# package-lock.json is tracked since we modified package.json
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
